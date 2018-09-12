@@ -1,0 +1,12 @@
+void setup() {
+  // put your setup code here, to run once:
+
+  
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  digitalWrite(LEDBUILT_IN, HIGH);
+  delay(500);
+  digitalWrite(LEDBUILT_IN, LOW);
+}
